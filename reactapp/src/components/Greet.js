@@ -1,9 +1,5 @@
 import React from 'react'
 
-function Greet() {
-    return (
-        <div>Hello Enis</div>
-    )
-}
+const Greet = () => <h1>Hello Enis Kastrati</h1>
 
 export default Greet;
