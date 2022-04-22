@@ -10,7 +10,8 @@ function App() {
       <Greet name='Enis' heroName='BATMAN'/>
       <Greet name='Kastrati' heroName='SpiderMAN'/>
       <Greet name='Test' heroName='TestHero'>
-        <button>Child Button</button>
+	  <button>Child Button</button>
+	  <button>Child Button 2</button>
       </Greet>
       <Welcome name="Test2" heroName="Test2Hero">
         <button>Class Props Children </button>
