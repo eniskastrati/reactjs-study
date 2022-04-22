@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <Greet name='Enis' heroName='BATMAN'/>
       <Greet name='Kastrati' heroName='SpiderMAN'/>
-      <Greet name='SMED' heroName='wonderWoman' />
+      <Greet name='Test' heroName='TestHero'>
+        <button>Child Button</button>
+      </Greet>
       {/* <Hello /> */}
     </div>
   );
