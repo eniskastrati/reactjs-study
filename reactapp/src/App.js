@@ -6,9 +6,9 @@ import Hello from './components/Hello'
 function App() {
   return (
     <div className="App">
-      <Greet name='Enis' />
-      <Greet name='Kastrati' />
-      <Greet name='SMED' />
+      <Greet name='Enis' heroName='BATMAN'/>
+      <Greet name='Kastrati' heroName='SpiderMAN'/>
+      <Greet name='SMED' heroName='wonderWoman' />
       {/* <Hello /> */}
     </div>
   );
