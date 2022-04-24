@@ -8,6 +8,8 @@ class EvenBind extends Component {
       this.state = {
          message: "Hello"
       }
+
+        this.changeMessage = this.changeMessage.bind(this);
     }
 
     changeMessage(){
@@ -21,7 +23,8 @@ class EvenBind extends Component {
       <div>
           <div>{this.state.message}</div>
           {/* <button onClick={this.changeMessage.bind(this)}>Click</button> */}
-          <button onClick={() => this.changeMessage()}>Click</button>
+          {/* <button onClick={() => this.changeMessage()}>Click</button> */}
+          <button onClick={this.changeMessage}>Click</button> 
       </div>
     )
   }
