@@ -3,7 +3,7 @@ import React from 'react'
 function ChildComponent({greetHandler}) {
   return (
     <div>
-        <button onClick={greetHandler}>Greet Parent</button>
+        <button onClick={() => greetHandler('child')}>Greet Parent</button>
     </div>
   )
 }
