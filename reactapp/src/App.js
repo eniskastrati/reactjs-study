@@ -8,10 +8,10 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      {/* <Greet />
-      <Welcome name="Enis" heroName="https://eniskastrati.de" /> */}
+      <Greet name={"enis"} heroName={"Kastrati"} />
+      {/* <Welcome name="Enis" heroName="https://eniskastrati.de" /> */}
       {/* <Message /> */}
-      <Counter />
+      {/*<Counter /> */}
     </div>
   );
 }
