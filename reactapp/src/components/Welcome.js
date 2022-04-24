@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-import React, { Component } from 'react'
-
-class Welcome extends Component {
-    render() {
-        return <h1>Class Component</h1>
-    }
-=======
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 class Welcome extends Component {
     render(props) {
@@ -17,7 +9,6 @@ class Welcome extends Component {
             </div>
         );
     };
->>>>>>> 64dedd20fcecf42e03ab8b64365aaed00583a701
 }
 
 export default Welcome;
