@@ -12,6 +12,7 @@ import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
+      {/* <EvenBind /> */}
       <ParentComponent />
       {/* <ClassClick /> */}
       {/* <Greet name={"enis"} heroName={"Kastrati"} /> */}
