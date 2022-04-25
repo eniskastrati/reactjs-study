@@ -8,11 +8,13 @@ import Counter from './components/Counter';
 import Click from './components/Click';
 import ClassClick from './components/ClassClick';
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from "./components/UserGreeting";
 
 function App() {
   return (
     <div className="App">
       {/* <EvenBind /> */}
+        <UserGreeting />
       <ParentComponent />
       {/* <ClassClick /> */}
       {/* <Greet name={"enis"} heroName={"Kastrati"} /> */}
