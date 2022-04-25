@@ -29,7 +29,8 @@ class UserGreeting extends Component{
         //  )
         //}
         return (
-            this.state.isLoggedIn ? <h1>Welcome Enis</h1> : <h1>Welcome Guest</h1>
+            //this.state.isLoggedIn ? <h1>Welcome Enis</h1> : <h1>Welcome Guest</h1>
+            this.state.isLoggedIn && <h1>Welcome Enis</h1>
         )
 
     }
