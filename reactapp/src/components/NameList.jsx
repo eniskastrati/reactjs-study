@@ -1,36 +1,44 @@
 import React from 'react'
+import uniqid from 'uniqid'
 import Person from './Person';
 
 function NameList() {
   const names = ['Bruce', 'Clarck', 'Diana']
     const persons = [
       {
-        id: 0,
+        id: uniqid(),
         name: 'Bruce',
         age: 25,
         skill: 'Reactjs'
       },
       {
-        id: 1,
+        id: uniqid(),
         name: 'Keit',
         age: 32,
         skill: 'Angular'
       },
       {
-        id: 2,
+        id: uniqid(),
         name: 'Angeline',
         age: 20,
         skill: 'Golang'
       },
       {
-        id: 3,
+        id: uniqid(),
         name: 'Tobi',
         age: 40,
         skill: 'Vue'
       },
+      {
+        id: uniqid(),
+        name: 'James',
+        age: 44,
+        skill: 'Vue'
+      }
     ]
     const nameList = names.map((name,idx) => <h2 key={idx} >{name}</h2>);
-  return (<div>{nameList}</div>)
+    const personsList = persons.map(person => <Person key={person.id} person={person} />);
+  return (<div>{personsList}</div>)
 }
 
 export default NameList
