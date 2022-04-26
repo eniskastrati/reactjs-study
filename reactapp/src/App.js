@@ -19,6 +19,7 @@ import styles from './styles/appStyles.module.css'
 import Form from './components/react-basics/Form';
 import LifecycleA from './components/react-basics/LifecycleA';
 import FragmentDemo from './components/react-advanced/FragmentDemo';
+import Table from './components/react-advanced/Table';
 
 
 
@@ -26,7 +27,8 @@ import FragmentDemo from './components/react-advanced/FragmentDemo';
 function App() {
   return (
     <div className="App">
-      <FragmentDemo />
+      <Table />
+      {/* <FragmentDemo /> */}
       {/* <LifecycleA />
       <Form /> */}
       {/* <h1 className='error'>Error</h1>
