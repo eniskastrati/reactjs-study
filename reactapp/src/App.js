@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles/App.css';
 
+
+//importing components
 import Welcome from './components/react-basics/Welcome';
 import Greet from './components/react-basics/Greet';
 import Message from './components/react-basics/Message'
@@ -16,14 +18,17 @@ import './styles/appStyle.css'
 import styles from './styles/appStyles.module.css'
 import Form from './components/react-basics/Form';
 import LifecycleA from './components/react-basics/LifecycleA';
+import FragmentDemo from './components/react-advanced/FragmentDemo';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
-      <Form />
+      <FragmentDemo />
+      {/* <LifecycleA />
+      <Form /> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
       {/* <Inline /> */}
