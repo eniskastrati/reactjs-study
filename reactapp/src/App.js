@@ -1,21 +1,21 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 
-import Welcome from './components/Welcome';
-import Greet from './components/Greet';
-import Message from './components/Message'
-import Counter from './components/Counter';
-import Click from './components/Click';
-import ClassClick from './components/ClassClick';
-import ParentComponent from './components/ParentComponent';
-import UserGreeting from "./components/UserGreeting";
-import NameList from './components/NameList';
-import Stylesheet from './components/Stylesheet';
-import Inline from './components/Inline';
-import './appStyle.css'
-import styles from './appStyles.module.css'
-import Form from './components/Form';
-import LifecycleA from './components/LifecycleA';
+import Welcome from './components/react-basics/Welcome';
+import Greet from './components/react-basics/Greet';
+import Message from './components/react-basics/Message'
+import Counter from './components/react-basics/Counter';
+import Click from './components/react-basics/Click';
+import ClassClick from './components/react-basics/ClassClick';
+import ParentComponent from './components/react-basics/ParentComponent';
+import UserGreeting from "./components/react-basics/UserGreeting";
+import NameList from './components/react-basics/NameList';
+import Stylesheet from './components/react-basics/Stylesheet';
+import Inline from './components/react-basics/Inline';
+import './styles/appStyle.css'
+import styles from './styles/appStyles.module.css'
+import Form from './components/react-basics/Form';
+import LifecycleA from './components/react-basics/LifecycleA';
 
 
 
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <LifecycleA />
-      {/* <Form /> */}
+      <Form />
       {/* <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1> */}
       {/* <Inline /> */}
