@@ -1,5 +1,6 @@
 import { toHaveFocus } from '@testing-library/jest-dom/dist/matchers'
 import React, { Component } from 'react'
+import MemoComp from './MemoComp'
 import PureComp from './PureComp'
 import RegularComp from './RegularComp'
 
@@ -26,8 +27,9 @@ class ParentComp extends Component {
     return (
       <div>
           <p>ParentComp</p>
-          <RegularComp name={this.state.name}/>
-          <PureComp name={this.state.name}/>
+          <MemoComp name={this.state.name}/>
+          {/* <RegularComp name={this.state.name}/>
+          <PureComp name={this.state.name}/> */}
       </div>
     )
   }
