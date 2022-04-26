@@ -20,6 +20,8 @@ import Form from './components/react-basics/Form';
 import LifecycleA from './components/react-basics/LifecycleA';
 import FragmentDemo from './components/react-advanced/FragmentDemo';
 import Table from './components/react-advanced/Table';
+import PureComp from './components/react-advanced/PureComp';
+import ParentComp from './components/react-advanced/ParentComp';
 
 
 
@@ -27,7 +29,8 @@ import Table from './components/react-advanced/Table';
 function App() {
   return (
     <div className="App">
-      <Table />
+      <ParentComp />
+      {/* <Table /> */}
       {/* <FragmentDemo /> */}
       {/* <LifecycleA />
       <Form /> */}
