@@ -20,7 +20,12 @@ import Form from './components/react-basics/Form';
 import LifecycleA from './components/react-basics/LifecycleA';
 import FragmentDemo from './components/react-advanced/FragmentDemo';
 import Table from './components/react-advanced/Table';
+<<<<<<< HEAD
 import RefsDemo from './components/react-advanced/RefsDemo';
+=======
+import PureComp from './components/react-advanced/PureComp';
+import ParentComp from './components/react-advanced/ParentComp';
+>>>>>>> master
 
 
 
@@ -28,7 +33,11 @@ import RefsDemo from './components/react-advanced/RefsDemo';
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <RefsDemo />
+=======
+      <ParentComp />
+>>>>>>> master
       {/* <Table /> */}
       {/* <FragmentDemo /> */}
       {/* <LifecycleA />
