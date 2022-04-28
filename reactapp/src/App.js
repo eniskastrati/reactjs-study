@@ -20,12 +20,8 @@ import Form from './components/react-basics/Form';
 import LifecycleA from './components/react-basics/LifecycleA';
 import FragmentDemo from './components/react-advanced/FragmentDemo';
 import Table from './components/react-advanced/Table';
-<<<<<<< HEAD
 import RefsDemo from './components/react-advanced/RefsDemo';
-=======
-import PureComp from './components/react-advanced/PureComp';
-import ParentComp from './components/react-advanced/ParentComp';
->>>>>>> master
+import EvenBind from './components/react-basics/EvenBind';
 
 
 
@@ -33,29 +29,25 @@ import ParentComp from './components/react-advanced/ParentComp';
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       <RefsDemo />
-=======
-      <ParentComp />
->>>>>>> master
-      {/* <Table /> */}
-      {/* <FragmentDemo /> */}
-      {/* <LifecycleA />
-      <Form /> */}
-      {/* <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1> */}
-      {/* <Inline /> */}
-      {/* <Stylesheet primary={true} /> */}
-      {/* <NameList /> */}
-      {/* <EvenBind /> */}
-      {/* <UserGreeting />
-      <ParentComponent /> */}
-      {/* <ClassClick /> */}
-      {/* <Greet name={"enis"} heroName={"Kastrati"} /> */}
-      {/* <Welcome name="Enis" heroName="Spiderman" /> */}
-      {/* <Click /> */}
-      {/* <Message /> */}
-      {/*<Counter /> */}
+      <Table />
+      <FragmentDemo />
+      <LifecycleA />
+      <Form />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
+      <Inline />
+      <Stylesheet primary={true} />
+      <NameList />
+      <EvenBind />
+      <UserGreeting />
+      <ParentComponent />
+      <ClassClick />
+      <Greet name={"enis"} heroName={"Kastrati"} />
+      <Welcome name="Enis" heroName="Spiderman" />
+      <Click />
+      <Message />
+      <Counter />
     </div>
   );
 }
