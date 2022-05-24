@@ -13,6 +13,11 @@ const App = () => {
   ]);
 
   const addGoalHandler = enteredText => {
+    for(let i = 0; i < courseGoals.length; i++){
+      if(courseGoals[i].text === enteredText){
+        return;
+      }
+    }
     setCourseGoals(prevGoals => {
       const updatedGoals = [...prevGoals];
       updatedGoals.unshift({ text: enteredText, id: Math.random().toString() });
